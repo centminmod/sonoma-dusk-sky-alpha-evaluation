@@ -1,4 +1,4 @@
-Sonoma Dusk Alpha and Sonon Sky Alpha are 2 new stealth LLM models just released with 2 million context window sizes. I wanted to test them for code analysis for my csfa.sh nftables wrapper script and GitHub workflow action test against other LLM models I use. I have paid subscriptions and accounts with:
+Sonoma Dusk Alpha and Sonon Sky Alpha are 2 new stealth LLM models just released with 2 million context window sizes and Qwen 3 Max was also just released. I wanted to test them for code analysis for my csfa.sh nftables wrapper script and GitHub workflow action test against other LLM models I use. I have paid subscriptions and accounts with:
 
 * OpenAI ChatGPT Plus
 * Claude AI Max $100
@@ -40,8 +40,8 @@ The 13 AI LLM models evaluated by above 6 models are:
 The evaluation reveals a remarkably strong consensus among all 6 evaluating models regarding the top-tier performers:
 
 1. **Claude Code Opus 4.1** - Achieved the highest or near-highest rankings from 3 out of 6 evaluators (98, 97, 98, 97 average), with only ChatGPT GPT-5 Thinking penalizing it for "unverifiable specifics"
-2. **OpenRouter Qwen3 Max** - Consistently ranked 2nd or 3rd across all evaluators (96, 93, 98, 97, 93 range), praised for exceptional formatting and comprehensive coverage
-3. **KiloCode xAI Grok Code Fast 1** - Strong 3rd place consensus (95, 87, 99, 95, 95 range), particularly lauded by Gemini for its Mermaid diagrams and technical depth
+2. **OpenRouter Qwen3 Max** - Consistently ranked 2nd or 3rd across all evaluators, praised for exceptional formatting and comprehensive coverage
+3. **KiloCode xAI Grok Code Fast 1** - Strong 3rd place consensus, particularly lauded by Gemini for its Mermaid diagrams and technical depth
 
 ### Clear Performance Tiers
 
@@ -212,5 +212,4 @@ The evaluation consensus strongly indicates that **comprehensive, technically ac
 | 11   | KiloCode Qwen3 Coder       | 88                      | 65                          | 77                    | Core/advanced features split; CI environment. | Too concise; skips monitoring/validation depth. |
 | 12   | KiloCode MoonshotAI Kimi K2 0905 | 87                      | 55                          | 71                    | High-level features, CI validation; brief. | Minimal coverage; no specifics on timers or CI steps. |
 | 13   | KiloCode Mistral Medium 3.1 | 85                      | 50                          | 68                    | Basic overview, relationship explanation; example. | Shallow; ignores enhanced features like directions. |
-
 
