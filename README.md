@@ -1,4 +1,4 @@
-Sonoma Dusk Alpha and Sonon Sky Alpha are 2 new stealth LLM models just released with 2 million context window sizes and Qwen 3 Max was also just released. I wanted to test them for code analysis for my csfa.sh nftables wrapper script and GitHub workflow action test against other LLM models I use. I have paid subscriptions and accounts with:
+Sonoma Dusk Alpha and Sonoma Sky Alpha are 2 new stealth LLM models just released with 2 million context window sizes and Qwen 3 Max was also just released. I wanted to test them for code analysis for my csfa.sh nftables wrapper script and GitHub workflow action test against other LLM models I use. I have paid subscriptions and accounts with:
 
 * OpenAI ChatGPT Plus
 * Claude AI Max $100
