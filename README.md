@@ -39,7 +39,7 @@ The 13 AI LLM models evaluated by above 6 models are:
 
 The evaluation reveals a remarkably strong consensus among all 6 evaluating models regarding the top-tier performers:
 
-1. **Claude Code Opus 4.1** - Achieved the highest or near-highest rankings from 5 out of 6 evaluators (98, 97, 98, 97 average), with only ChatGPT GPT-5 Thinking penalizing it for "unverifiable specifics"
+1. **Claude Code Opus 4.1** - Achieved the highest or near-highest rankings from 3 out of 6 evaluators (98, 97, 98, 97 average), with only ChatGPT GPT-5 Thinking penalizing it for "unverifiable specifics"
 2. **OpenRouter Qwen3 Max** - Consistently ranked 2nd or 3rd across all evaluators (96, 93, 98, 97, 93 range), praised for exceptional formatting and comprehensive coverage
 3. **KiloCode xAI Grok Code Fast 1** - Strong 3rd place consensus (95, 87, 99, 95, 95 range), particularly lauded by Gemini for its Mermaid diagrams and technical depth
 
