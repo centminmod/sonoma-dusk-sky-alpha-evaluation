@@ -21,21 +21,21 @@ The 6 AI LLM models which did response evaluation rankings are:
 * Grok 4 via T3 Chat
 * Sonoma Sky Alpha via KiloCode
 
-The 13 AI LLM models evaluated by above 6 models are:
+The 13 AI LLM models evaluated by above 6 models are (including costs for usage):
 
-* OpenAI Codex GPT-5 Medium Thinking
-* OpenAI ChatGPT GPT-5 Thinking
-* Claude Code Opus 4.1
-* Claude AI Web Opus 4.1 Thinking
-* KiloCode Claude Sonnet 4
-* Google Gemini 2.5 Pro Web
-* KiloCode Sonoma Dusk Alpha
-* KiloCode Sonoma Sky Alpha
-* KiloCode MoonshotAI Kimi K2 0905
-* KiloCode xAI Grok Code Fast 1
-* KiloCode Qwen3 Coder
-* OpenRouter Qwen3 Max
-* KiloCode Mistral Medium 3.1
+* OpenAI Codex GPT-5 Medium Thinking   included in subscription cost
+* OpenAI ChatGPT GPT-5 Thinking        included in subscription cost
+* Claude Code Opus 4.1                 included in subscription cost
+* Claude AI Web Opus 4.1 Thinking      included in subscription cost
+* KiloCode Claude Sonnet 4             $0.240  | inputs tokens: 80,596 | output tokens: 4,822 | cache hits: 38,818
+* Google Gemini 2.5 Pro Web            included in subscription cost
+* KiloCode Sonoma Dusk Alpha           $0.000  | inputs tokens: 66,302 | output tokens: 3,049 | cache hits: 32,168
+* KiloCode Sonoma Sky Alpha            $0.000  | inputs tokens: 31,761 | output tokens: 2,684 | cache hits: 397
+* KiloCode MoonshotAI Kimi K2 0905     $0.020  | inputs tokens: 30,763 | output tokens: 1,484 | cache hits: 0
+* KiloCode xAI Grok Code Fast 1        $0.000  | inputs tokens: 30,649 | output tokens: 1,025 | cache hits: 576
+* KiloCode Qwen3 Coder                 $0.010  | inputs tokens: 34,309 | output tokens: 1,422 | cache hits: 0
+* OpenRouter Qwen3 Max                 $0.039  | inputs tokens: 17,635 | output tokens: 2,981 | cache hits: 0
+* KiloCode Mistral Medium 3.1          $0.040  | inputs tokens: 76,355 | output tokens: 2,460 | cache hits: 0
 
 ## Overall Findings
 
