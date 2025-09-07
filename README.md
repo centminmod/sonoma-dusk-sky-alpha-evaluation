@@ -11,9 +11,9 @@ I have paid subscriptions and accounts with:
 * OpenRouter AI
 * KiloCode
 
-I tested 13 AI LLM models for code analysis and summaries and then used 6 AI LLM models to rank all 13 AI LLM model responses.
+I tested 13 AI LLM models for code analysis and summaries and then used 5 AI LLM models to rank all 13 AI LLM model responses.
 
-The 6 AI LLM models which did response evaluation rankings are:
+The 5 AI LLM models which did response evaluation rankings are:
 
 * Claude Code Opus 4.1
 * ChatGPT GPT-5 Thinking
