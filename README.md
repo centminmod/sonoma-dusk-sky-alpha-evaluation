@@ -59,7 +59,7 @@ Claude Code Opus 4.1 would of ranked 1st if not for ChatGPT GPT-5 Thinking proba
 | KiloCode Qwen3 Coder | 82.0 | 65.0 | 65.0 | 73.0 | 77.0 | 72.4 | 12.0 |
 | KiloCode MoonshotAI Kimi K2 0905 | 82.0 | 68.0 | 55.0 | 68.0 | 71.0 | 68.8 | 13.0 |
 
-![avg score bar chart](chart/model-eval-ranking-avg-score-barchart-1.png)
+![avg score bar chart](charts/model-eval-ranking-avg-score-barchart-1.png)
 
 ![heatmap chart](charts/model-eval-ranking-heatmap-1.png)
 
