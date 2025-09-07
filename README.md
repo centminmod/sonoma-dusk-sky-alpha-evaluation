@@ -62,7 +62,7 @@ Claude Code Opus 4.1 would of ranked 1st if not for ChatGPT GPT-5 Thinking proba
 
 ### Consensus Top Performers
 
-The evaluation reveals a remarkably strong consensus among all 6 evaluating models regarding the top-tier performers:
+The evaluation reveals a remarkably strong consensus among all 5 evaluating models regarding the top-tier performers:
 
 1. **Claude Code Opus 4.1** - Achieved the highest or near-highest rankings from 3 out of 6 evaluators (98, 97, 98, 97 average), with only ChatGPT GPT-5 Thinking penalizing it for "unverifiable specifics"
 2. **OpenRouter Qwen3 Max** - Consistently ranked 2nd or 3rd across all evaluators, praised for exceptional formatting and comprehensive coverage
