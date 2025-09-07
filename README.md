@@ -41,6 +41,8 @@ The 13 AI LLM models evaluated by above 5 models are (including costs for usage)
 
 ### Average Overall Scores Across Evaluators (ranked)
 
+Claude Code Opus 4.1 would of ranked 1st if not for ChatGPT GPT-5 Thinking probably bias lower scored ranking and would of swapped places with OpenRouter Qwen 3 Max moving to 2nd place.
+
 | Model | ChatGPT GPT-5 Thinking | Claude Code Opus 4.1 | Gemini 2.5 Pro Web | Grok 4 via T3 Chat | Sonoma Sky Alpha via KiloCode | Avg Score | Rank |
 |---|---|---|---|---|---|---|---|
 | OpenRouter Qwen3 Max | 93.0 | 96.0 | 98.0 | 97.0 | 93.0 | 95.4 | 1.0 |
