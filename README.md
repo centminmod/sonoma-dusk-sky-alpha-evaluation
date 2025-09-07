@@ -1,4 +1,4 @@
-Sonoma Dusk Alpha and Sonoma Sky Alpha are 2 new stealth LLM models just released with 2 million context window sizes and Qwen 3 Max was also just released. I wanted to test them for code analysis for my csfa.sh nftables wrapper script and GitHub workflow action test against other LLM models I use. 
+Sonoma Dusk Alpha and Sonoma Sky Alpha are 2 new stealth LLM models just released with 2 million context window sizes and Qwen 3 Max was also just released. I wanted to test them for code analysis for my csfa.sh nftables wrapper script and GitHub workflow action test against other LLM models I use.
 
 > CSFA (v1.3.1) is a CSF-like wrapper for nftables that provides familiar ConfigServer Security & Firewall commands mapped to modern nftables equivalents. The project uses a single Bash script (`csfa.sh`) that manages firewall rules through a dedicated inet table called "csfa".
 
@@ -39,6 +39,25 @@ The 13 AI LLM models evaluated by above 6 models are (including costs for usage)
 
 ## Overall Findings
 
+### Average Overall Scores Across Evaluators (ranked)
+
+| Model | ChatGPT GPT-5 Thinking | Claude Code Opus 4.1 | Gemini 2.5 Pro Web | Grok 4 via T3 Chat | Sonoma Sky Alpha via KiloCode | Avg Score | Rank |
+|---|---|---|---|---|---|---|---|
+| OpenRouter Qwen3 Max | 93.0 | 96.0 | 98.0 | 97.0 | 93.0 | 95.4 | 1.0 |
+| Claude Code Opus 4.1 | 84.0 | 98.0 | 97.0 | 98.0 | 97.0 | 94.8 | 2.0 |
+| KiloCode xAI Grok Code Fast 1 | 87.0 | 95.0 | 99.0 | 95.0 | 95.0 | 94.2 | 3.0 |
+| Claude AI Web Opus 4.1 Thinking | 87.0 | 88.0 | 90.0 | 94.0 | 90.0 | 89.8 | 4.0 |
+| KiloCode Claude Sonnet 4 | 82.0 | 94.0 | 88.0 | 93.0 | 92.0 | 89.8 | 5.0 |
+| Google Gemini 2.5 Pro Web | 89.0 | 85.0 | 94.0 | 91.0 | 88.0 | 89.4 | 6.0 |
+| OpenAI ChatGPT GPT-5 Thinking | 94.0 | 82.0 | 92.0 | 86.0 | 86.0 | 88.0 | 7.0 |
+| OpenAI Codex GPT-5 Medium Thinking | 92.0 | 75.0 | 75.0 | 89.0 | 81.0 | 82.4 | 8.0 |
+| KiloCode Sonoma Sky Alpha | 83.0 | 62.0 | 78.0 | 87.0 | 85.0 | 79.0 | 9.0 |
+| KiloCode Mistral Medium 3.1 | 80.0 | 78.0 | 80.0 | 78.0 | 68.0 | 76.8 | 10.0 |
+| KiloCode Sonoma Dusk Alpha | 85.0 | 72.0 | 60.0 | 84.0 | 83.0 | 76.8 | 11.0 |
+| KiloCode Qwen3 Coder | 82.0 | 65.0 | 65.0 | 73.0 | 77.0 | 72.4 | 12.0 |
+| KiloCode MoonshotAI Kimi K2 0905 | 82.0 | 68.0 | 55.0 | 68.0 | 71.0 | 68.8 | 13.0 |
+
+
 ### Consensus Top Performers
 
 The evaluation reveals a remarkably strong consensus among all 6 evaluating models regarding the top-tier performers:
@@ -52,18 +71,22 @@ The evaluation reveals a remarkably strong consensus among all 6 evaluating mode
 The rankings reveal distinct performance clusters:
 
 **Elite Tier (90-98 average)**
+
 * Claude Code Opus 4.1, OpenRouter Qwen3 Max, KiloCode xAI Grok Code Fast 1
 * Characterized by: Professional formatting, comprehensive technical depth, visual aids (diagrams/tables), specific code references
 
 **High Performer Tier (85-94 average)**  
+
 * KiloCode Claude Sonnet 4, Claude AI Web Opus 4.1 Thinking, Google Gemini 2.5 Pro Web
 * Characterized by: Good structure and coverage but less technical depth or minor accuracy issues
 
 **Mid-Range Tier (75-89 average)**
+
 * OpenAI ChatGPT GPT-5 Thinking, OpenAI Codex GPT-5 Medium Thinking, KiloCode Sonoma Sky/Dusk Alpha
 * Characterized by: Solid basics but lacking implementation details or comprehensive analysis
 
 **Lower Tier (55-78 average)**
+
 * KiloCode Mistral Medium 3.1, KiloCode Qwen3 Coder, KiloCode MoonshotAI Kimi K2 0905
 * Characterized by: Brief summaries, surface-level coverage, missing critical technical details
 
@@ -80,6 +103,7 @@ All evaluators consistently valued:
 ### Notable Divergences
 
 The most significant disagreement occurred with **ChatGPT GPT-5 Thinking's evaluation**, which:
+
 * Ranked itself #1 (94) while others placed it mid-tier (82-92 range)
 * Heavily penalized Claude Code Opus 4.1 for "unverifiable specifics" (ranked 12th) while all others ranked it 1st
 * Showed potential self-bias by favoring OpenAI models (ranked both OpenAI models in top 3)
@@ -87,6 +111,7 @@ The most significant disagreement occurred with **ChatGPT GPT-5 Thinking's evalu
 ### Evaluation Methodology Insights
 
 Different evaluators emphasized different aspects:
+
 * **Gemini 2.5 Pro** valued visual elements heavily (99 score for Grok's Mermaid diagrams)
 * **Claude Code Opus 4.1** provided the most granular scoring with detailed strengths/weaknesses
 * **Grok 4** balanced accuracy and thoroughness equally in scoring
