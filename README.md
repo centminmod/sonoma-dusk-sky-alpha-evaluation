@@ -21,7 +21,7 @@ The 5 AI LLM models which did response evaluation rankings are:
 * Grok 4 via T3 Chat
 * Sonoma Sky Alpha via KiloCode
 
-The 13 AI LLM models evaluated by above 6 models are (including costs for usage):
+The 13 AI LLM models evaluated by above 5 models are (including costs for usage):
 
 * OpenAI Codex GPT-5 Medium Thinking   included in subscription cost
 * OpenAI ChatGPT GPT-5 Thinking        included in subscription cost
