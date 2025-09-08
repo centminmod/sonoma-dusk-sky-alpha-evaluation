@@ -63,6 +63,24 @@ Claude Code Opus 4.1 would of ranked 1st if not for ChatGPT GPT-5 Thinking proba
 
 ![heatmap chart](charts/model-eval-ranking-heatmap-1.png)
 
+### Which Of The 5 AI Evaluators Most Accurately Ranked LLM Models?
+
+With above average score bar chart, I was also curious as to which of the 5 AI evaluators most accurately ranked the 13 AI LLM models.
+
+To find the most accurate evaluator, I compared each of the five evaluators' individual ranking lists to the final ranking list derived from the average scores. I calculated the sum of the absolute differences in rank for each model across all 13 positions. The evaluator with the lowest total "difference score" is the one whose rankings are most aligned with the overall consensus.
+
+For example, if the average rank for a model is #1 and an evaluator ranks it #2, the difference is 1. If another model is ranked #7 on average but #9 by the evaluator, the difference is 2. These differences are summed up for all 13 models.
+
+Here are the total difference scores for each of the five evaluators. A lower score indicates a closer match to the final average ranking with **Grok4 via T3 Chat** being most accurate evaluator for rankings. **OpenAI ChatGPT GPT-5 Thinking** was the biggest outlier by a significant margin
+
+| Evaluator | Total Difference Score |
+| :--- | :--- |
+| **Grok 4 via T3 Chat** | **8** |
+| Claude Code Opus 4.1 | 14 |
+| Sonoma Sky Alpha via KiloCode | 16 |
+| Google Gemini 2.5 Pro Web | 20 |
+| OpenAI ChatGPT GPT-5 Thinking | 48 |
+
 
 ### Consensus Top Performers
 
