@@ -37,6 +37,10 @@ The 13 AI LLM models evaluated by above 5 models are (including costs for usage)
 * OpenRouter Qwen3 Max                 $0.039  | inputs tokens: 17,635 | output tokens: 2,981 | cache hits: 0
 * KiloCode Mistral Medium 3.1          $0.040  | inputs tokens: 76,355 | output tokens: 2,460 | cache hits: 0
 
+**Note:**
+
+You can easily replicate these tests asking AI LLM models to summarize/analyse your code bases/scripts and save their responses to markdown files. Then feed their responses into AI LLM models for evaluation.
+
 ## Overall Findings
 
 ### Average Overall Scores Across Evaluators (ranked)
