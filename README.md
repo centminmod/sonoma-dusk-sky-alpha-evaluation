@@ -1,3 +1,5 @@
+Updated ranking with Claude Sonnet 4.5 and newer models at <https://github.com/centminmod/claude-sonnet-4.5-evaluation>
+
 Sonoma Dusk Alpha and Sonoma Sky Alpha are 2 new stealth LLM models just released with 2 million context window sizes and Qwen 3 Max was also just released. I wanted to test them for code analysis for my csfa.sh nftables wrapper script and GitHub workflow action test against other LLM models I use. This is for code analysis and not code generation. Code analysis would be useful for understanding code bases, writing documentation, troubleshooting code and planning.
 
 Update:
